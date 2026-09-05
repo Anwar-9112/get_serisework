@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: hsl(212, 45%, 89%);
+  font-family: "Outfit", sans-serif;
+  min-height: 100vh;
+  margin: 0;
+}
+.all {
+  border-radius: 10px;
+  background: hsl(0, 0%, 100%);
+  width: 300px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.img {
+  height: 250px;
+  width: 100%;
+  border-radius: 10px;
+}
+h {
+  font-size: 15px;
+  font-weight: 700;
+  margin-left: 0;
+  margin-right: 0;
+}
+.secondP {
+  font-size: 15px;
+  font-weight: 400;
+  margin-left: 0;
+  margin-right: 0;
+}
+.attribution {
+  display: none;
+}
