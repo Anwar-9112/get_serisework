@@ -9,14 +9,14 @@ body {
 }
 
 #allDiv {
-  font-family: "Figtree", sans-serif;
   background: hsl(0, 0%, 100%);
   height: 522px;
   width: 384px;
   box-sizing: border-box;
   padding: 24px;
-  border-radius: 10px;
+  border-radius: 20px;
   box-shadow: 8px 8px 0px black;
+  border: 1px solid black;
 }
 
 #img {
@@ -38,15 +38,28 @@ body {
   background: hsl(47, 88%, 63%);
   display: inline-block;
   margin: 24px 0 0;
+  border-radius: 4px;
+  color: hsl(0, 0%, 7%);
+  font-size: 14px;
+  line-height: 150%;
+  font-weight: 800;
 }
-
+#firstPtag {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 150%;
+}
 #seondh2 {
-  color: hsl(47, 88%, 63%);
+  color: hsl(0, 0%, 7%);
   white-space: nowrap;
 }
 
 #secondPtag {
-  font-weight: 350;
+  color: hsl(0, 0%, 42%);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
 }
 
 #secondimg {
@@ -55,7 +68,10 @@ body {
 }
 
 #thirdH3 {
-  font-weight: 500;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 150%;
+  color: hsl(0, 0%, 7%);
   margin: 0;
 }
 
@@ -64,8 +80,6 @@ body {
   align-items: center;
   gap: 12px;
 }
-
-/* mobile design is below */
 
 @media (max-width: 500px) {
   #allDiv {
@@ -77,5 +91,29 @@ body {
   #imageContainer {
     width: 279px;
     height: 200px;
+  }
+  #seondh2 {
+    width: 233px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 150%;
+  }
+  #secondPtag {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+  }
+  #firstPtag {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 150%;
+  }
+  #heading1 {
+    border-radius: 4px;
+
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 150%;
   }
 }
